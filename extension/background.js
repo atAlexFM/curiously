@@ -2,16 +2,20 @@
 // 'use strict';
 
 /**
- * @property {string} SUPABASE_CONNECT
- * @property {string} SUPABASE_URL
+ * @property {string} ENV_SUPABASE_CONNECT
+ * @property {string} ENV_SUPABASE_URL
  */
 
-require('dotenv').config()
-console.log(process.env) //
+// require(['dotenv']).config()
+// console.log(process.env) 
 
 // const SUPABASE_CONNECT = 'api-token';
 // const SUPABASE_URL= 'api-url';
 // export default TOKEN;
+
+// import('env.js')
+const SUPABASE_CONNECT = env.ENV_SUPABASE_CONNECT
+const SUPABASE_URL = env.ENV_SUPABASE_URL
 
 const { createClient } = supabase;
 supabase = supabase.createClient(SUPABASE_URL, SUPABASE_CONNECT);
@@ -76,7 +80,6 @@ chrome.runtime.getPlatformInfo(function (info) {
 /**
  * Find a random URL and load it
  */
-
 
 async function stumble(url, category) {
   if (rabbitHoleCategory) {

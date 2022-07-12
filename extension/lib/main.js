@@ -1,6 +1,6 @@
-const fs = require('fs')
-const path = require('path')
-const os = require('os')
+const fs = require(['fs'])
+const path = require(['path'])
+const os = require(['os'])
 
 const LINE = /(?:^|^)\s*(?:export\s+)?([\w.-]+)(?:\s*=\s*?|:\s+?)(\s*'(?:\\'|[^'])*'|\s*"(?:\\"|[^"])*"|\s*`(?:\\`|[^`])*`|[^#\r\n]+)?\s*(?:#.*)?(?:$|$)/mg
 

@@ -1,5 +1,5 @@
 # Curiously
-Curiously is a discovery engine and browser add-on dedicated to showcasing the best of a free, fun, and open internet.
+Curiously is a discovery engine and browser add-on dedicated to showcasing the best of the internet.
 
 ## Workflow
 Development is generally done using the git-flow methodology. Work on the stage branch for integrating new functionality, master is deployment. Any fixes or major changes should be done in a new branch. Once tested, changes should be merged into the stage branch.

@@ -1,6 +1,6 @@
 {
   "name": "curiously",
-  "version": "0.0.7",
+  "version": "0.0.0.9",
   "description": "Curiousity never killed the cat",
   "main": "extension/background.js",
   "scripts": {

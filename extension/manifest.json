@@ -1,7 +1,7 @@
 {
   "name": "Curiously",
   "version": "0.0.0.9",
-  "description": "Brining back a decentralized internet, one click at a time",
+  "description": "Rediscovering the internet, one click at a time",
   
   "background": {
     "page": "background.html",
