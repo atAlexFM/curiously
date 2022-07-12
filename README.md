@@ -1,8 +1,11 @@
 # Curiously
 Curiously is a discovery engine and browser add-on dedicated to showcasing the best of the internet.
 
-## Workflow
-Development is generally done using the git-flow methodology. Work on the stage branch for integrating new functionality, master is deployment. Any fixes or major changes should be done in a new branch. Once tested, changes should be merged into the stage branch.
+# Project Status
+This project is in development and currently in alpha.
+
+# Website
+(https://curiously.cc)
 
 ## Setup - Firefox
 1. Go to: about:debugging#/runtime/this-firefox
@@ -15,4 +18,4 @@ Development is generally done using the git-flow methodology. Work on the stage 
 3. Go to the bookmark toolbar and pin Curiously onto the toolbar
 
 ## Credit
-A big thanks to Vyacheslav Basharov for providing the boilerplate and Russell Barnard from (https://www.youtube.com/channel/UC-h4Q0_5zTX66AxJucRmxRQ) for lending a hand.
+A big thanks to Vyacheslav Basharov for providing the boilerplate and Russell Barnard from [Rusty Zone](https://www.youtube.com/channel/UC-h4Q0_5zTX66AxJucRmxRQ) for lending a hand.
