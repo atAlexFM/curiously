@@ -4,8 +4,8 @@ Curiously is a discovery engine and browser add-on dedicated to showcasing the b
 # Project Status
 This project is in development and currently in alpha.
 
-# Website
-(https://curiously.cc)
+## Website
+[Curiously](https://curiously.cc)
 
 ## Setup - Firefox
 1. Go to: about:debugging#/runtime/this-firefox
