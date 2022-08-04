@@ -1,5 +1,5 @@
 # Curiously
-Curiously is a discovery engine and browser add-on dedicated to showcasing the best of the internet.
+Curiously is a discovery engine and browser extension dedicated to showcasing the best of the internet.
 
 # Project Status
 This project is in development and currently in alpha.
