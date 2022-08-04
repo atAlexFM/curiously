@@ -305,15 +305,26 @@ function showWelcomeInfo(request) {
 
     text = div('sax-welcome-text');
     text.innerHTML = `<p id="sax-welcome-text-title">
-    The cat found something curious!
+    How do I use Curiously?
     </p>
     </br>
     <p id="sax-welcome-text-body">
-    You will find all sorts of hidden gems on the internet.
+    Simple! You can change links two ways.
     </br>
-    Engage your curiousity by clicking on the "C" icon in the toolbar, or press <span id="sax-keyboard-shortcut">${os === 'mac' ? "Alt+Shift+S" : "Alt+Shift+S"}
+    1.) Click on the Curiously logo in the extension bar.
+    </br>
+    2.) Use the hotkey <span id="sax-keyboard-shortcut">${os === 'mac' ? "Alt+Shift+S" : "Alt+Shift+S"}
     </span>
     </br></br>
+    <p id="sax-welcome-text-title">
+    How do I stay in a category?
+    </p>
+    </br>
+    <p id="sax-welcome-text-body">
+    When you change links, click on the disappearing Curiously GIF. This locks your category.
+    To exit, click on the logo next to the spinning spiral. 
+    </p>
+    </br>
     <div id="sax-welcome-new-feature">
         <img id="sax-rabbit-hole-spiral-2" src=${chrome.extension.getURL('images/spiral.png')} />
         <span id='sax-welcome-text-body-small-accent'>Did You Know?</span>
